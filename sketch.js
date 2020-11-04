@@ -10,7 +10,7 @@ var backgroundIMG;
 
 function preload() {
 	binImg = loadImage("dustbingreen.png");
-	backgroundIMG = loadImage("backgroundIMG(1).jpg");
+	backgroundIMG = loadImage("backgroundIMG(44).jpg");
 }
 
 function setup() {
@@ -29,9 +29,7 @@ function setup() {
 	bin3 = new dustbin(745,520,20,140);
 
 	Engine.run(engine);
-	//console.log(ball);
-
-	//console.log(ball.body.position);
+	
 }
 
 
@@ -45,9 +43,7 @@ function draw() {
 	fill(255);
 	rect(ground.position.x,ground.position.y,800,20);
 
-	//bin1.display();
-	//bin2.display();
-	//bin3.display();
+	
 
 	imageMode(CENTER);
 	image(binImg,665	,520,160,144);
@@ -62,7 +58,7 @@ function draw() {
 		fill("pink");
 		textStyle(BOLD);
 
-		text("YAY! Now you know how to keep your school clean!",50,350);
+		text("YAY! Now you know how to keep your house clean in lockdown!",50,350);
 	}
 
 	if(keyDown(UP_ARROW) && ball.body.position.y>530) {
