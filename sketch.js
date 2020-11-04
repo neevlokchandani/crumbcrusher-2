@@ -10,7 +10,7 @@ var backgroundIMG;
 
 function preload() {
 	binImg = loadImage("dustbingreen.png");
-	backgroundIMG = loadImage("backgroundIMG(44).jpg");
+	backgroundIMG = loadImage("background(44).png");
 }
 
 function setup() {
